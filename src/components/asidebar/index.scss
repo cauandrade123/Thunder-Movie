@@ -1,0 +1,46 @@
+aside{
+    height: 100dvh;
+    width: 34dvh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    z-index: 1;
+
+    .logo{
+        width: 34dvh;
+    }   
+
+    p{
+        padding: 27px;
+        padding-right: 18px;
+        transition: all 0.3s;
+        font-weight: bolder;
+     }
+
+     p:hover{
+        background-color: rgb(78, 69, 78);
+        transform: scale(1.07);
+     }
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 29px;
+        list-style: none;
+
+        p{
+            padding: 27px;
+            padding-right: 18px;
+            transition: all 0.3s;
+         }
+
+         p:hover{
+            background-color: rgb(151, 3, 151);
+            transform: scale(1.07);
+         }
+    }
+}
